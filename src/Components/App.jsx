@@ -7,7 +7,7 @@ import notes from "../notes";
 const App = (props) => (
   <div>
     <Header />
-    // Mapping notes from notes.js
+    {/*  Mapping notes from notes.js */}
     {notes.map((noteItem) => (
       <Note
         key={noteItem.key}
