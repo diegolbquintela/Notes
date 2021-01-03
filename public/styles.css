@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,45 +8,36 @@
 
 html {
   font-family: "Montserrat", sans-serif;
+  position: relative;
 }
 
 body {
-  background: #eee;
+  background: #f4f4f2;
   padding: 0 16px;
 }
-
+/* First Container */
 header {
-  background-color: #f5ba13;
+  background-color: #000000;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
-  color: #fff;
-  font-family: "McLaren", cursive;
+  color: #e8e8e8;
+  font-family: "Tangerine", cursive;
   font-weight: 200;
+  font-size: 2.5rem;
 }
 
-footer {
-  position: absolute;
-  text-align: center;
-  bottom: 0;
-  width: 100%;
-  height: 2.5;
-}
-
-footer p {
-  color: #ccc;
-}
-
+/* Notes */
 .note {
   background: #fff;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
-  padding: 10px;
-  width: 240px;
-  margin: 16px;
+  padding: 0.5rem;
+  width: 15rem;
+  margin: 1rem;
   float: left;
 }
 
@@ -54,8 +47,23 @@ footer p {
 }
 
 .note p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 10px;
+  font-weight: 100;
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5;
+  margin-top: 10px;
+}
+
+footer p {
+  color: #ccc;
 }
